@@ -106,7 +106,7 @@ export const ImagePrediction = () => {
         dispatch(
           homeReducers.addToast({
             id: uuidv4(),
-            message: "Fellow human detected...",
+            message: "Fellow human(s) detected...",
             toastType: TOAST_TYPE.SUCCESS,
             payload: {},
             isActive: true,
@@ -120,7 +120,7 @@ export const ImagePrediction = () => {
         dispatch(
           homeReducers.addToast({
             id: uuidv4(),
-            message: "Fellow human not detected...",
+            message: "Fellow human(s) not detected...",
             toastType: TOAST_TYPE.WARNING,
             payload: {},
             isActive: true,
