@@ -214,7 +214,7 @@ export const ImagePrediction = () => {
         ) : (
           <>
             <p className="text-blue-500 p-2">
-              Pssst! use an image with a person and see.. 👀
+              Pssst! Use an image with a human and another without one..
             </p>
             <input
               className="p-2"
